@@ -1,17 +1,29 @@
 <!-- HTML Elements : The Component used to design the structure of websites are called HTML tags.-->
-
 <!-- Standard Elements that browser recognizes : -->
- <!-- 1. Paragraph -->
- <p>This is a paragraph</p>
- <!-- 2. Heading -->
-  <h1>Heading</h1>
- <!-- 3. Image -->
-  <img>
-
+ <!-- 1.Paragraph Element : The <p> HTML element represent a paragraph.-->
+        <p>This is a para.
+        <b>Paragraph</b>  <!-- (nesting and nested tag) -->
+            this is
+        </p>
+ <!-- 2.Heading Elements : The <h1> to <h6> HTML Elements represent six levels of section headings.-->
+ <h1>heading main</h1><!--- Highest section --->
+     <h2>heading 2</h2>
+     <h3> heading 3</h3>
+     <h4> heading 4</h4>
+     <h5> heading 5</h5>
+     <h6> heading 6</h6> <!--- lowest section -->
   <!-- HTML Tags : A container for some content or other tags -->
    <p> paragraph tag</p> 
    <h1>heading tag</h1>
    <b>bold tag</b>
-
  <!-- Hello World -->
-    <p>Hello World   <b>Pranali Pandiya</b> </p>
+    <p>Hello World   <b>Pranali Pandiya</b>  </p>
+ <!----- Practice Qs1 ----->
+      <h1>Avengers</h1>
+      <h2>Iron Man</h2>
+      <p>Also goes by the name <b>Tony Stark</b></p>
+      <h2>Captain American</h2>
+      <p>Also goes by the name <b>Steve Rogers</b></p>
+      <h2>Hulk</h2>
+      <p>Also goes by the name <b>Bruce Banner</b></p>
+ 
