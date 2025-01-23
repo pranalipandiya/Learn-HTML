@@ -1,0 +1,12 @@
+<!-- HTML Elements : The Component used to design the structure of websites are called HTML tags.-->
+<!-- Standard Elements that browser recognizes : -->
+ <!-- 1. Paragraph -->
+ <p>This is a paragraph</p>
+ <!-- 2. Heading -->
+  <h1>Heading</h1>
+ <!-- 3. Image -->
+  <img>
+  <!-- HTML Tags : A container for some content or other tags -->
+   <p> paragraph tag</p> 
+   <h1>heading tag</h1>
+   <b>bold tag</b>
