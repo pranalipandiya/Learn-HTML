@@ -1,0 +1,71 @@
+<!--  Lists in HTML   -->
+    <!-- 1. Unordered List -->
+    <ul>
+        <li>Bread</li>
+        <li>Jam</li>
+        <li>Footi</li>
+    </ul>
+    <!-- 2. ordered List -->
+    <ol type="a">
+        <li>Bread</li>
+        <li>Jam</li>
+        <li>Footi</li>
+    </ol>
+<!-- HTML Attributes: Attributes are used to add more information to the tag.-->
+    <html lang="en"> </html> <!--- Ex-->
+    <ol type="a"></ol> <!--- Ex-->
+<!-- Anchor Element : Used to add links to your page -->
+    <a href="https://www.google.com/">Google</a>
+    <!-- href: (Attributes)  hyperText Refernce -->
+    <!--  links are two types 1. absolute(internet  hosted links) 2. relative(local files links) -->
+<!-- Image Element : Used to add image to your page -->
+    <img src="image.png" alt="random image">
+<!----- Practice Qs2 ------>
+    <!-- Create an unordered list of 3 fruits--apple, orange, & mango that also shows links to their pictures. -->
+    <h1>List Of Fruits</h1>
+    <ul>
+        <li>Apple <a
+                href="https://t4.ftcdn.net/jpg/02/52/93/81/360_F_252938192_JQQL8VoqyQVwVB98oRnZl83epseTVaHe.jpg">see an
+                apple</a></li>
+        <li>Orange<a href="https://cdn.pixabay.com/photo/2019/10/13/20/35/orange-4547207_640.png">see an orange</a></li>
+        <li>Mango <a
+                href="https://media.istockphoto.com/id/186018991/photo/mango-on-a-white-background.jpg?s=612x612&w=0&k=20&c=wmj1JQKjI8GYShKsLtMkHbAPJ-GjyaVBnx-CAX_DDtM=">see
+                an mango</a></li>
+    </ul>
+ <!-- Br Tag : used to add next line(line breaks) to your page -->
+    <p>Twinkle Twinkle little star how i wonder what you are</p>
+    <p>Twinkle Twinkle <br> little star <br> how i wonder <br> what you are</p>
+
+    <!-- Bold (dark text) , Italic (slated text) & Underline Tags(underline the text) ==> used to heighlight text in your page -->
+    <p><b>Twinkle Twinkle </b><br> <i>little star</i> <br> <u> how i wonder</u> <br> what you are</p>
+ <!-- ==================== HTML Level 1 ( Practice Questions) ======================-->
+    <!-- Qs1. Use the correct HTML tag to add a paragraph with the text "Hello World!". -->
+    <p>"Hello World!"</p>
+    <!-- Qs2. Mark up the text with appropriate tags: -->
+    <h1>Delta</h1>
+    <h2>Full Stack Web Development</h2>
+    <h3>MERN Stack</h3>
+    <h4>Let's begin our learning journey!</h4>
+    <!-- Qs3.Create a clickable link that redirects to the url:https://www.apnacollege.in/-->
+    <a href="https://www.apnacollege.in/">apna college</a>
+    <!-- Qs4.You are given the rank list of few students, create an ordered HTML list to display the list given below: -->
+    <ol type="1">
+        <li>Deepak</li>
+        <li>Epsita</li>
+        <li>Lakshita</li>
+        <li>Tanmay</li>
+        <li>Agrim</li>
+    </ol>
+    <!-- Qs5. Reading about these topics on mdn: -->
+    <!-- HrTaginHTML  ==> The <hr> HTML element represents a thematic break between paragraph-level elements -->
+    <p>§1: The first rule of Fight Club is: You do not talk about Fight Club.</p>
+
+    <hr />
+
+    <p>§2: The second rule of Fight Club is: Always bring cupcakes.</p>
+    <!-- HTMLEntities  ==>The term "HTML Entity" is used as a synonym for a character reference — a pattern of characters that can represent another character in the HTML. For example, &lt; is used to represent the less-than symbol (<) in HTML content. -->
+    <!--  &	&amp;	U+00026
+        <	&lt;	U+0003C
+        >	&gt;	U+0003E
+        "	&quot;	U+00022 -->
+    &amp; &lt; &gt;
